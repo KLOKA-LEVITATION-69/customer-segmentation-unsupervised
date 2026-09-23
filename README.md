@@ -84,10 +84,3 @@ at k = 5; the elbow in inertia agrees (`fig09_k_selection.png`).
 - DBSCAN's noise points are *transitional* customers between segments — a nice
   demonstration of density-based outlier detection.
 
-## Notes for the viva
-- Why scale? K-Means and DBSCAN are distance-based; raw income (15–137 k$)
-  would dominate spending (1–99).
-- Why k = 5? Internal indices + the visibly five-blob structure + marketing
-  interpretability (matches the classic "customer value matrix").
-- Why internal metrics? There are no labels — external accuracy measures are
-  undefined in unsupervised learning.
