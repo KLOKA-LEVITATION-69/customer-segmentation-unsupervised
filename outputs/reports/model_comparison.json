@@ -1,0 +1,163 @@
+{
+  "k_selection_plane": [
+    {
+      "k": 2,
+      "inertia": 269.6910121927639,
+      "silhouette": 0.3212707813918878,
+      "davies_bouldin": 1.266953745774289,
+      "calinski_harabasz": 95.66940839463767
+    },
+    {
+      "k": 3,
+      "inertia": 157.70400815035944,
+      "silhouette": 0.46658474419000145,
+      "davies_bouldin": 0.716482156943549,
+      "calinski_harabasz": 151.3351212635948
+    },
+    {
+      "k": 4,
+      "inertia": 108.92131661364357,
+      "silhouette": 0.4939069237513199,
+      "davies_bouldin": 0.7095564965521565,
+      "calinski_harabasz": 174.59521459297633
+    },
+    {
+      "k": 5,
+      "inertia": 65.5684081557168,
+      "silhouette": 0.5546571631111091,
+      "davies_bouldin": 0.5722356162263352,
+      "calinski_harabasz": 248.64932001536357
+    },
+    {
+      "k": 6,
+      "inertia": 55.05734827038599,
+      "silhouette": 0.5398800926790663,
+      "davies_bouldin": 0.6545674732339849,
+      "calinski_harabasz": 243.08789485068303
+    },
+    {
+      "k": 7,
+      "inertia": 44.864755699225555,
+      "silhouette": 0.5281492781108291,
+      "davies_bouldin": 0.7147841166477835,
+      "calinski_harabasz": 254.621179742776
+    },
+    {
+      "k": 8,
+      "inertia": 37.148116972291106,
+      "silhouette": 0.4567208019716266,
+      "davies_bouldin": 0.7579113679371183,
+      "calinski_harabasz": 267.9142202292719
+    },
+    {
+      "k": 9,
+      "inertia": 32.36022982569204,
+      "silhouette": 0.4564615682225599,
+      "davies_bouldin": 0.7544695009967913,
+      "calinski_harabasz": 271.2403329701597
+    },
+    {
+      "k": 10,
+      "inertia": 29.61832958214651,
+      "silhouette": 0.4591807027983601,
+      "davies_bouldin": 0.7435072500149988,
+      "calinski_harabasz": 263.9976226891444
+    }
+  ],
+  "kmeans_plane": {
+    "silhouette": 0.5546571631111091,
+    "davies_bouldin": 0.5722356162263352,
+    "calinski_harabasz": 248.64932001536357,
+    "n_clusters": 5
+  },
+  "hierarchical_plane": {
+    "silhouette": 0.5538089226688662,
+    "davies_bouldin": 0.5778621190740154,
+    "calinski_harabasz": 244.41032586596822,
+    "n_clusters": 5
+  },
+  "gmm_plane": {
+    "silhouette": 0.5536892843811245,
+    "davies_bouldin": 0.5760100302410824,
+    "calinski_harabasz": 244.9401969858632,
+    "n_clusters": 5,
+    "converged": true
+  },
+  "dbscan_tuning": {
+    "eps": 0.35,
+    "min_samples": 4,
+    "silhouette": 0.42642268156817986,
+    "davies_bouldin": 1.412734537475941,
+    "calinski_harabasz": 80.95137823259299,
+    "n_clusters": 7,
+    "noise_frac": 0.08
+  },
+  "dbscan_plane": {
+    "silhouette": 0.42642268156817986,
+    "davies_bouldin": 1.412734537475941,
+    "calinski_harabasz": 80.95137823259299,
+    "n_clusters": 7
+  },
+  "extended_3d": {
+    "kmeans": {
+      "silhouette": 0.41664341513732767,
+      "davies_bouldin": 0.874551051002418,
+      "calinski_harabasz": 125.10094020060954,
+      "n_clusters": 5
+    },
+    "hierarchical": {
+      "silhouette": 0.39002826186267214,
+      "davies_bouldin": 0.9162886109753661,
+      "calinski_harabasz": 107.82656032570374,
+      "n_clusters": 5
+    },
+    "gmm": {
+      "silhouette": 0.4063670087334304,
+      "davies_bouldin": 0.9355987334508509,
+      "calinski_harabasz": 116.90093123349072,
+      "n_clusters": 5
+    }
+  },
+  "pca_explained_variance": [
+    0.4426616720824504,
+    0.33308378461522425,
+    0.22425454330232533
+  ],
+  "kmeans_profile": [
+    {
+      "n": 39,
+      "age_mean": 32.7,
+      "income_mean": 86.5,
+      "spend_mean": 82.1,
+      "male_pct": 46.2
+    },
+    {
+      "n": 22,
+      "age_mean": 25.3,
+      "income_mean": 25.7,
+      "spend_mean": 79.4,
+      "male_pct": 40.9
+    },
+    {
+      "n": 81,
+      "age_mean": 42.7,
+      "income_mean": 55.3,
+      "spend_mean": 49.5,
+      "male_pct": 40.7
+    },
+    {
+      "n": 23,
+      "age_mean": 45.2,
+      "income_mean": 26.3,
+      "spend_mean": 20.9,
+      "male_pct": 39.1
+    },
+    {
+      "n": 35,
+      "age_mean": 41.1,
+      "income_mean": 88.2,
+      "spend_mean": 17.1,
+      "male_pct": 54.3
+    }
+  ]
+}

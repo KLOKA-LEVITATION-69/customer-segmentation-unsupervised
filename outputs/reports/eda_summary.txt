@@ -1,0 +1,21 @@
+EDA SUMMARY - Mall Customers segmentation dataset
+============================================================
+Rows: 200 | Columns: ['Gender', 'Age', 'Annual Income (k$)', 'Spending Score (1-100)', 'AgeBand', 'IncomeBand', 'IncomeNorm', 'SpendNorm', 'SpendToIncome']
+Gender split: {'Female': 112, 'Male': 88}
+
+Central tendencies
+  Age            mean=38.9  median=36  range=18-70
+  Income (k$)    mean=60.6  median=62  range=15-137
+  Spending       mean=50.2  median=50  range=1-99
+
+Pearson correlations (Age / Income / Spending)
+                          Age  Annual Income (k$)  Spending Score (1-100)
+Age                     1.000              -0.012                  -0.327
+Annual Income (k$)     -0.012               1.000                   0.010
+Spending Score (1-100) -0.327               0.010                   1.000
+
+Mean spending score, age <=40: 59.3 | age >40: 36.0
+High earners (>70k$): n=74, mean spending=50.2 (bimodal: some spend a lot, some very little)
+
+Key insight: income vs spending shows ~5 visually separable groups ->
+ideal case for K-Means; age adds nuance (young customers cluster tighter).

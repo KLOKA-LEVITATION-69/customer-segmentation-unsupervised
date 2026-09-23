@@ -1,0 +1,10 @@
+step 1 : 
+
+cd customer-segmentation-unsupervised
+pip install -r requirements.txt
+python src/eda.py          # ~10s, 8 EDA figures
+python src/clustering.py   # ~1min, full comparison (already run once)
+streamlit run src/app.py   # dashboard: explore, re-cluster live, predict a customer
+
+step 2 : 
+python -m streamlit run src/app.py
